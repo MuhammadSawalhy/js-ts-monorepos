@@ -7,6 +7,7 @@
     "access": "public"
   },
   "scripts": {
+    "clean": "rimraf dist *.tsbuildinfo",
     "build": "tsc -b ."
   },
   "devDependencies": {

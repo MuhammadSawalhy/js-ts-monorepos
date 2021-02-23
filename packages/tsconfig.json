@@ -2,7 +2,11 @@
 {
   "files": [],
   "references": [
-    { "path": "types" },
-    { "path": "utils" }
+    {
+      "path": "types"
+    },
+    {
+      "path": "utils"
+    }
   ]
 }
