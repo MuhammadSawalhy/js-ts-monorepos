@@ -10,14 +10,15 @@
     "lint": "scripty",
     "clean": "rimraf dist *.tsbuildinfo",
     "build": "scripty",
-    "test": "scripty"
+    "test": "scripty",
+    "pretest": "node ./ensure-built.js"
   },
   "scripty": {
     "path": "../../scripts/packages"
   },
   "jest": {
     "moduleNameMapper": {
-      "^@shalck/utils$": "<rootDir>/build/index.js"
+      "^@shlack/utils$": "<rootDir>/dist/index.js"
     }
   },
   "dependencies": {
