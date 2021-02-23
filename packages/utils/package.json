@@ -8,15 +8,21 @@
   },
   "scripts": {
     "clean": "rimraf dist *.tsbuildinfo",
-    "build": "tsc -b ."
+    "build": "tsc -b .",
+    "test": "jest"
   },
   "dependencies": {
     "date-fns": "^2.17.0",
     "react": "^17.0.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.13.1",
+    "@babel/preset-env": "^7.13.5",
+    "@babel/preset-typescript": "^7.13.0",
     "@types/date-fns": "^2.6.0",
     "@types/jest": "^26.0.20",
-    "@types/react": "^17.0.2"
+    "@types/react": "^17.0.2",
+    "jest": "^26.6.3",
+    "typescript": "^4.1.5"
   }
 }

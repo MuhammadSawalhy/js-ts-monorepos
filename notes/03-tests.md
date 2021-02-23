@@ -63,7 +63,7 @@ Add a new "scripts" entry to each package's `package.json`, so that we can just 
    "scripts": {
      "clean": "rimraf dist *.tsbuildinfo",
      "build": "tsc -b .",
-+    "test": "jest",
++    "test": "jest"
    },
 ````
 
