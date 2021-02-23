@@ -7,10 +7,13 @@
     "access": "public"
   },
   "scripts": {
+    "lint": "scripty",
     "clean": "rimraf dist *.tsbuildinfo",
-    "build": "tsc -b .",
-    "lint": "eslint src --ext js,ts",
-    "test": "jest"
+    "build": "scripty",
+    "test": "scripty"
+  },
+  "scripty": {
+    "path": "../../scripts/packages"
   },
   "dependencies": {
     "@shlack/types": "^0.0.1",
