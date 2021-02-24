@@ -1,13 +1,11 @@
+// instead of using lerna to build all my ts packages
+// this is more effecient to let the tsc do all the work
 {
-  "compilerOptions": {
-    "module": "CommonJS",
-    "composite": true,
-    "target": "ES2018",
-    "strict": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noImplicitReturns": true,
-    "declaration": true
-  },
-  "exclude": ["**/node_modules/**"]
+  "files": [],
+  "references": [
+    { "path": "./packages/types" },
+    { "path": "./packages/utils" },
+    { "path": "./packages/data" },
+    { "path": "./packages/ui" }
+  ]
 }

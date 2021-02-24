@@ -1,8 +1,0 @@
-// instead of using lerna to build all my ts packages
-{
-  "files": [],
-  "references": [
-    { "path": "types" },
-    { "path": "utils" }
-  ]
-}

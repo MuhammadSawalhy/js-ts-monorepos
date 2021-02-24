@@ -1,5 +1,5 @@
 {
-  "extends": "../typescript.settings.json",
+  "extends": "../../typescript.settings.json",
   "compilerOptions": {
     "composite": true,
     "outDir": "dist",

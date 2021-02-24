@@ -3,5 +3,10 @@
   "npmClient": "yarn",
   "version": "independent",
   "useWorkspaces": true,
-  "nohoist": ["parcel-bundler"]
+  "nohoist": ["parcel-bundler"],
+  "command": {
+    "publish": {
+      "message": "chore: publish new version"
+    }
+  }
 }
