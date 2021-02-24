@@ -28,6 +28,14 @@ and creating a `lerna.json` config file at the root of our project
 }
 ```
 
+If you want wach package to have its own version "independent version".
+
+
+```diff
+-  "version": "0.0.1",
++  "version": "independent",
+```
+
 Finally, run
 
 ```sh
