@@ -1,5 +1,5 @@
 {
-  "extends": "../../tsconfig.settings.json",
+  "extends": "../../typescript.settings.json",
   "references": [
     { "path": "../types" },
     { "path": "../utils" },

@@ -32,6 +32,8 @@
     "typescript": "^4.0.3"
   },
   "dependencies": {
+    "@shlack/types": "^0.0.1",
+    "@shlack/utils": "^0.0.1",
     "express": "^4.17.1",
     "json-server": "^0.16.2",
     "parcel-bundler": "^1.12.4",

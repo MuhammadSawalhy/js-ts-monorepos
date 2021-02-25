@@ -1,4 +1,4 @@
-// instead of using lerna to build all my ts packages
+// instead of using lerna to build all my ts packages at once
 // this is more effecient to let the tsc do all the work
 {
   "files": [],
